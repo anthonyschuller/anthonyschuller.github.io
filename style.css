@@ -72,7 +72,7 @@ a{text-decoration:none;
 }
 
 .email-img {
-	width:275px;
+	width:100%;
 }
 
 .container {
@@ -88,4 +88,7 @@ a{text-decoration:none;
         width: 800px;
     }
 	
+	.email-img {
+		width:350px;
+	}
 }
