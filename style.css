@@ -1,0 +1,91 @@
+
+@font-face {
+	font-family: myFont;
+	src: url(fonts/raleway.ttf);
+}
+
+@font-face {
+	font-family: otherFont;
+	src: url(fonts/ahamono.otf);
+}
+
+body {
+  font-family: otherFont;
+  color: white;
+  background-color: black;
+  padding-bottom:100px;
+}
+
+
+
+.banner-left {
+	float:left;
+	
+	
+	
+}
+
+
+.name-banner {
+	text-transform:uppercase;
+	font-size:32px;
+	margin-top:25px;
+
+}
+
+
+.name-subtitle {
+	margin-bottom:20px;
+	font-size:16px;
+}
+
+
+.banner-right {
+	
+	float:right;
+	white-space:nowrap;
+	margin-top:65px;
+	margin-bottom:20px;
+	font-size:16px;
+}
+
+a{text-decoration:none;
+	cursor:pointer;
+	color:white;
+}
+
+.section-header {
+	margin-top:20px;
+	margin-bottom:10px;
+	font-size:22px;
+	text-transform: uppercase;
+}
+
+
+.section-content {
+	
+	
+}
+
+.headshot {
+	width:100%;
+}
+
+.email-img {
+	width:275px;
+}
+
+.container {
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* Below this is only non-mobile for desktop */
+@media only screen and (min-width:768px){
+    .container {
+        width: 800px;
+    }
+	
+}
