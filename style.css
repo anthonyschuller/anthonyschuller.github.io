@@ -10,12 +10,34 @@
 }
 
 body {
-  font-family: otherFont;
-  color: white;
   background-color: black;
   padding-bottom:100px;
 }
 
+.section-header {
+	font-family: otherFont;
+  color: white;
+}
+
+.section-content {
+	font-family: myFont;
+  color: white;
+}
+
+.name-banner {
+	font-family: otherFont;
+  color: white;
+}
+
+.name-subtitle {
+	font-family: myFont;
+  color: white;
+}
+
+.banner-right {
+	font-family: myFont;
+  color: white;
+}
 
 
 .banner-left {
